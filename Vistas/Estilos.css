@@ -1,0 +1,45 @@
+@import url("https://fonts.google.com/specimen/Alata#standard-styles");  
+
+#body{     
+    font-family: "Alata#standard-styles";  
+    height: 200px;
+  background-color: #cccccc;
+  background-image: linear-gradient(#280a50, #6a25c4);
+}
+
+#is{
+    color: white;
+}
+
+#is:hover{
+    background-color: #280a50;
+}
+
+.container{
+    
+    position: absolute;
+    bottom: 50px;
+    left: -100px;
+    margin: auto;
+    
+}
+
+#carouselExampleCaptions{
+    max-width:70%;
+    max-height:30%;
+    box-shadow: #280a50 5px 5px;
+    margin: auto;
+}
+
+#cabecera{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: #561f9e;
+    border-radius: 0px 0px 15px 15px;
+    
+}
+
+#logoc{
+    max-width: 50px;
+    max-height: 50px;
+}
+
