@@ -17,20 +17,22 @@
 }
 
 .container{
-    height: 550px;
+    border: solid red;
+    height: 80%;
     width: auto;
     position: relative;
-    bottom: auto;
-    left: -10px;
+    bottom: -60px;
+    left: 0%;
     margin: auto;
     
 }
 
 #carouselExampleCaptions{
-    max-width:70%;
-    max-height:30%;
+    
+    width: 800px;
     box-shadow: #280a50 5px 5px;
     margin: auto;
+    left: -165px;
 }
 
 #cabecera{
@@ -41,6 +43,7 @@
 }
 
 #logoc{
+    
     max-width: 50px;
     max-height: 50px;
     position: relative;
@@ -49,10 +52,10 @@
 }
 
 #poslogo{
+    
     max-width: 50px;
     max-height: 50px;
     position: absolute;
     bottom: auto;
     left: auto;
 }
-
