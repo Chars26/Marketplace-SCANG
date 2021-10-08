@@ -2,7 +2,7 @@
 
 #body{     
     font-family: "Alata#standard-styles";  
-    height: 200px;
+    height: auto;
   background-color: #cccccc;
   background-image: linear-gradient(#280a50, #6a25c4);
 }
@@ -16,10 +16,11 @@
 }
 
 .container{
-    
-    position: absolute;
-    bottom: 50px;
-    left: -100px;
+    height: 550px;
+    width: auto;
+    position: relative;
+    bottom: auto;
+    left: -10px;
     margin: auto;
     
 }
@@ -41,5 +42,15 @@
 #logoc{
     max-width: 50px;
     max-height: 50px;
+    position: relative;
+    bottom: 5px;
+    left: auto;
 }
 
+#poslogo{
+    max-width: 50px;
+    max-height: 50px;
+    position: absolute;
+    bottom: auto;
+    left: auto;
+}
