@@ -5,6 +5,7 @@
     height: auto;
   background-color: #cccccc;
   background-image: linear-gradient(#280a50, #6a25c4);
+  background-attachment: fixed;
 }
 
 #is{
